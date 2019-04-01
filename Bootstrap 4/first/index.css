@@ -1,0 +1,156 @@
+@import "normalize.css";
+
+
+* {
+  box-sizing: border-box;
+  font-family: 'Nanum Gothic';
+  }
+
+
+/*------- Header ---------*/
+
+header {
+  background-image: url(https://images.unsplash.com/photo-1486458826750-9f4ef65e3e8f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80);
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  height: 400px;
+  }
+header img {
+  width: 200px;
+  height: 200px;
+  }
+header p:nth-child(1) {
+  font-family: 'Nothing You Could Do';
+  font-size: 50px;
+  font-weight: 1000;
+  color: white;
+  }
+header p:nth-child(2) {
+  font-family: 'Nothing You Could Do';
+  font-size: 20px;
+  font-weight: 1000;
+  color: white;
+  }
+header p:nth-child(3) {
+  font-family: 'Nothing You Could Do';
+  font-size: 20px;
+  font-weight: 1000;
+  color: white;
+  }
+
+/*------- Nav ---------*/
+nav {
+  border-bottom: 1px solid #ddd;
+  }
+.navigation-style {
+  font-family: 'Nanum Gothic';
+  font-size: 20px;
+  text-transform: uppercase;
+  color: #1C2B3A;
+  font-weight: 600;
+  }
+nav li {
+  color: #666E78;
+  }
+
+/*------- Main ---------*/
+
+.font-nycd {
+  font-family: 'Nothing You Could Do';
+  }
+.citation p {
+  color: #666E78;
+  }
+
+.text-moderation {
+  border-radius: 0;
+  }
+.recent-works img {
+  width: 300px;
+  }
+
+.text-design-p {
+  text-transform: lowercase;
+  font-family: 'Nothing You Could Do';
+  font-size: 20px;
+  color: red;
+  }
+
+/*------- Footer ---------*/
+footer {
+  width: 100%;
+  height: auto;
+  background-color: #1C2B3A;
+  color: white;
+  font-weight: 200;
+  }
+footer h4 {
+  font-family: 'Nothing You Could Do';
+  }
+footer col {
+  font-size: 10px;
+  }
+
+.details-footer {
+  width: 100%;
+  height: 60px;
+  background-color: #0B0E12;
+  margin-bottom: 0;
+  color: #666E78;
+  }
+
+.recent-works blockquote {
+  font-weight: 800;
+  text-transform: uppercase;
+  }
+/*------- Media ---------*/
+
+@media all and (min-width: 1200px) {
+  header {
+    background-image: url(https://images.unsplash.com/photo-1486458826750-9f4ef65e3e8f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80);
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 400px;
+    }
+}
+@media all and (min-width: 780px) {
+  header {
+    background-image: url(https://images.unsplash.com/photo-1486458826750-9f4ef65e3e8f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80);
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: auto;
+    }
+  .clients img {
+    width: 100%;
+    align-items: center;
+  }
+}
+@media all and (min-width: 520px) {
+  header {
+    background-image: url(https://images.unsplash.com/photo-1486458826750-9f4ef65e3e8f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80);
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: auto;
+    }
+  .clients img {
+    width: 100%;
+    align-items: center;
+  }
+}
+@media all and (max-width: 520px) {
+  header {
+    background-image: url(https://images.unsplash.com/photo-1486458826750-9f4ef65e3e8f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80);
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: auto;
+    }
+  .clients img {
+    width: 100%;
+    align-items: center;
+  }
+}

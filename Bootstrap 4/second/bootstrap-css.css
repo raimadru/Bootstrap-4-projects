@@ -1,0 +1,43 @@
+.main {
+  margin-top: 5px;
+  margin-bottom: 5px;
+  }
+
+.main-2 {
+  margin-top: 5px;;
+  }
+
+.main-2x {
+  margin-top: 4px;
+  margin-bottom: 10px;
+  }
+
+.co-ico {
+  padding: ;
+  margin-top: 4px;
+  margin-bottom: 4px;
+  border-radius: 10px;
+  }
+.border {
+  border-radius: 10px;
+  }
+/*------- css color ------*/
+.bac {
+  background-color: #B5A2C4;
+  }
+.but {
+  background-color: #463B50;
+  border-color: #463B50;
+  }
+.text-c {
+  color: #463B50;
+  }
+.line-1 {
+  background-color: #DAD0E1;
+  }
+.line-2 {
+  background-color: #635270;
+  }
+.hr {
+  background-color: #463B50;
+  }
